@@ -14,7 +14,6 @@ const readMarkdownFiles = async () => {
   })
 
   return Promise.all(promises)
-
 }
 
 const writeMarkdownFiles = async () => {
